@@ -95,7 +95,7 @@ const index = async () => {
 };
 
 const generateIndividualReadMes = (utils, packageName) => utils.forEach(util => {
-  const src = join(__dirname, '..', 'src', util.category.value, util.name, 'README.md');
+  const src = join(__dirname, '..', 'src', util.category.value.toLowerCase(), util.name, 'README.md');
   writeFileSync(src, generateTable(util, packageName));
 });
 
