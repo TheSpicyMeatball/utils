@@ -1,0 +1,59 @@
+[![Build Status](https://travis-ci.com/TheSpicyMeatball/utils.svg?branch=main)](https://travis-ci.com/TheSpicyMeatball/utils)
+[![Coverage Status](https://coveralls.io/repos/github/TheSpicyMeatball/utils/badge.svg?branch=main)](https://coveralls.io/github/TheSpicyMeatball/utils?branch=main)
+[![dependencies Status](https://status.david-dm.org/gh/TheSpicyMeatball/utils.svg)](https://david-dm.org/TheSpicyMeatball/utils)
+[![npm version](https://badge.fury.io/js/utils.svg)](https://badge.fury.io/js/utils)
+
+# <%= package.name %>
+
+<p>This library contains es5 and es6 implementations in the deliverable and is fully tree-shakable for es6. Simply import your utils as named imports like this:</p>
+
+```
+import { isNilOrEmpty, take } from '<%= package.name %>';
+```
+
+<p><b>Version:</b> <%= package.version %></p>
+
+> Click on each function name for details and examples
+
+<%- generateSummary(categories, utils) %>
+
+<a href="#license"></a>
+<h2>License</h2>
+
+<%= package.license %>
+
+<% if (package.author) { %>
+<a href="#author"></a>
+<h2>Author</h2>
+<% if (package.author.name) { %><%= package.author.name %> [<%= package.author.email %>](<%= package.author.email %>)<% } else { %><%= package.author %><% } %>
+<% } %>
+
+<% if (package.contributors) { %>
+<a href="#contributors"></a>
+<h2>Contributors</h2>
+
+<% package.contributors.forEach(function(contributor) { %>
+  <%= contributor %>
+<% }) %>
+<% } %>
+
+<a href="#dependencies"></a>
+<h2>Dependencies</h2>
+
+<% const dependencies = package.dependencies ? Object.getOwnPropertyNames(package.dependencies) : []; %>
+<% if (dependencies && dependencies.length > 0) { %>
+<table>
+<% dependencies.forEach(function(dependency) { %>
+  <tr>
+    <td>
+      <%= dependency %>
+    </td>
+    <td>
+      <%= package.dependencies[dependency] %>
+    </td>
+  </tr>
+<% }) %>
+</table>
+<% } else { %>
+None
+<% } %>

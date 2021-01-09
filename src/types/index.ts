@@ -1,0 +1,1 @@
+export type RangeBoundary = { bound: number, inclusive: boolean };

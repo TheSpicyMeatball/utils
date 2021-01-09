@@ -1,0 +1,28 @@
+import { first } from '../../array/first';
+import { isString } from '../../type/isString';
+import { isNilOrEmpty } from "../../value/isNilOrEmpty";
+
+/**
+ * Converts the string to kebab case
+ * 
+ * @since v0.0.1
+ * @category String
+ * @param {string} original - The original string
+ * @returns {string}
+ * @example
+ * kebab('Hello World')        //=> 'hello-world'
+ * kebab('-%^-hello-world--')  //=> 'hello-world'
+ * kebab('$@__HELLO+WORLD__')  //=> 'hello-world'
+ * kebab('2Hello 7world')      //=> 'hello-7-world'
+ */
+export const kebab = (value: string) : string => {
+  if (isNilOrEmpty(value) || !isString(value)) return '';
+  
+  const matches = Array.from(value.matchAll(/(?:[a-zA-Z])+.*[0-9]*/g));
+
+  // Remove special chars, insert basic dashes, make lower case, remove spaces
+  const output = first(first(first(matches), '').replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().match(/(?:(?:[a-zA-Z0-9])+-*(?:[a-zA-Z0-9]))*/g), '');
+
+  // Insert dashes around numbers, remove any dashes next to dashes
+  return output.replace(/(?<=\s)([a-z])|(?<=[0-9])([a-z])/g, '-$2').replace(/(?<=[a-z])([0-9])/g, '-$1').trim().replace(/-{2,}/, '-');
+};
