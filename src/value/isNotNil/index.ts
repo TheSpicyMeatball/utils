@@ -7,10 +7,10 @@ import { isNil } from '../isNil';
  * @param {*} value - The value to check
  * @returns {boolean}
  * @example
- * isNill(null)       //=> false
- * isNill(undefined)  //=> false
- * isNill('')         //=> true
- * isNill([])         //=> true
- * isNill({})         //=> true
+ * isNotNil(null)       //=> false
+ * isNotNil(undefined)  //=> false
+ * isNotNil('')         //=> true
+ * isNotNil([])         //=> true
+ * isNotNil({})         //=> true
  */
 export const isNotNil = (value: unknown) : boolean => !isNil(value);

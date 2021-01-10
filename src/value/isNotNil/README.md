@@ -21,11 +21,11 @@ import { isNotNil } from '@paravano/utils';
 
 
 ```    
-isNill(null)       //=> false
-isNill(undefined)  //=> false
-isNill('')         //=> true
-isNill([])         //=> true
-isNill({})         //=> true
+isNotNil(null)       //=> false
+isNotNil(undefined)  //=> false
+isNotNil('')         //=> true
+isNotNil([])         //=> true
+isNotNil({})         //=> true
 ```
 
     

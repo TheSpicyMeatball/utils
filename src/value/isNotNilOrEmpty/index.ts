@@ -9,16 +9,16 @@ import { isNotEmpty } from '../isNotEmpty';
  * @param {*} value - The value to check
  * @returns {boolean}
  * @example
- * isNilOrEmpty(null)             //=> false
- * isNilOrEmpty(undefined)        //=> false
- * isNilOrEmpty('')               //=> false
- * isNilOrEmpty([])               //=> false
- * isNilOrEmpty({})               //=> false
- * isNilOrEmpty('  ')             //=> true
- * isNilOrEmpty({x: 'x'})         //=> true
- * isNilOrEmpty([25])             //=> true
- * isNilOrEmpty(0)                //=> true
- * isNilOrEmpty(true)             //=> true
- * isNilOrEmpty(() => undefined)  //=> true
+ * isNotNilOrEmpty(null)             //=> false
+ * isNotNilOrEmpty(undefined)        //=> false
+ * isNotNilOrEmpty('')               //=> false
+ * isNotNilOrEmpty([])               //=> false
+ * isNotNilOrEmpty({})               //=> false
+ * isNotNilOrEmpty('  ')             //=> true
+ * isNotNilOrEmpty({x: 'x'})         //=> true
+ * isNotNilOrEmpty([25])             //=> true
+ * isNotNilOrEmpty(0)                //=> true
+ * isNotNilOrEmpty(true)             //=> true
+ * isNotNilOrEmpty(() => undefined)  //=> true
  */
 export const isNotNilOrEmpty = (value: unknown) : boolean => isNotNil(value) && isNotEmpty(value);
