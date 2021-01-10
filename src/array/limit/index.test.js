@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { limit } = require('../../../dist/lib/es5/index');
+const { limit } = require('../../../dist/lib/es5');
 
 describe('limit', () => {
   test('basic', () => {

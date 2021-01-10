@@ -4,7 +4,7 @@ const ejs = require('ejs');
 const { copyFileSync, existsSync, readdirSync, readFileSync, writeFileSync, exists } = require('fs');
 const { join, resolve } = require('path');
 const { parseTags, removeTags } = require('jsdoc-parse-plus');
-const { capitalize, first, isNotNilOrEmpty } = require('../dist/lib/es5/index');
+const { capitalize, first, isNotNilOrEmpty } = require('../dist/lib/es5');
 const htmlEncode = require('js-htmlencode').htmlEncode;
 
 /**

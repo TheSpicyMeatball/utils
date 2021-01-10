@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { sortReduceString } = require('../../../dist/lib/es5/index');
+const { sortReduceString } = require('../../../dist/lib/es5');
 
 describe('sortReduceString', () => {
   test('basic', () => {

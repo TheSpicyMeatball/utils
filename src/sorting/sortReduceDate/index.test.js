@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { sortReduceDate } = require('../../../dist/lib/es5/index');
+const { sortReduceDate } = require('../../../dist/lib/es5');
 
 describe('sortReduceDate', () => {
   test('basic', () => {

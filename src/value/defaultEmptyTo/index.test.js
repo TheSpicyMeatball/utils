@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { defaultEmptyTo } = require('../../../dist/lib/es5/index');
+const { defaultEmptyTo } = require('../../../dist/lib/es5');
 
 describe('defaultEmptyTo', () => {
   test('original value', () => {

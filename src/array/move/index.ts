@@ -1,4 +1,4 @@
-import { inRange } from './../../math/inRange/index';
+import { range } from '../../math/range';
 import { isArray } from '../../type/isArray';
 import { removeAt } from '../removeAt';
 import { insertAt } from '../insertAt';
@@ -22,9 +22,9 @@ import { insertAt } from '../insertAt';
 export const move = <T = unknown>(array: T[], from: number, to: number) : T[] => {
   if (!isArray(array) || from === to) return array;
 
-  const range = inRange(0, array.length);
+  const inRange = range(0, array.length);
   
-  if (!range(from) || !range(to)) return array;
+  if (!inRange(from) || !inRange(to)) return array;
 
   const item = array[from];
 

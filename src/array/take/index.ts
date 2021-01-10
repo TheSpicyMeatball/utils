@@ -1,4 +1,4 @@
-import { isNotNilOrEmpty } from './../../value/isNotNilOrEmpty/index';
+import { isNotNilOrEmpty } from '../../value/isNotNilOrEmpty';
 import { type } from "../../type/type";
 
 /**

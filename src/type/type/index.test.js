@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { type } = require('../../../dist/lib/es5/index');
+const { type } = require('../../../dist/lib/es5');
 
 describe('type', () => {
   test('nothing', () => {

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { pad } = require('../../../dist/lib/es5/index');
+const { pad } = require('../../../dist/lib/es5');
 
 describe('pad', () => {
   test('basic', () => {

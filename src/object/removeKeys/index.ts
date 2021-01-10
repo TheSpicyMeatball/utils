@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { isNotNilOrEmpty } from '../../value/isNotNilOrEmpty';
 import { type } from '../../type/type';
-import { assign } from './../assign';
-import { keys as getKeys } from './../keys';
+import { assign } from '../assign';
+import { keys as getKeys } from '../keys';
 
 /**
  * Immutably removes a set of key from an object

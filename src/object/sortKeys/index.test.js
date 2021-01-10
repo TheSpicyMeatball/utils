@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { sortKeys } = require('../../../dist/lib/es5/index');
+const { sortKeys } = require('../../../dist/lib/es5');
 
 /**
  * const obj = { hamster: true, frog: false, cow: false };

@@ -1,6 +1,6 @@
 import { isObject } from '../../type/isObject';
-import { isNotNilOrEmpty } from '../../value/isNotNilOrEmpty/index';
-import { isNilOrEmpty } from '../../value/isNilOrEmpty/index';
+import { isNotNilOrEmpty } from '../../value/isNotNilOrEmpty';
+import { isNilOrEmpty } from '../../value/isNilOrEmpty';
 
 /**
  * Gets the value at the specified path of the object

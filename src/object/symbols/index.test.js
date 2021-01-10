@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { symbols } = require('../../../dist/lib/es5/index');
+const { symbols } = require('../../../dist/lib/es5');
 
 describe('symbols', () => {
   test('value', () => {

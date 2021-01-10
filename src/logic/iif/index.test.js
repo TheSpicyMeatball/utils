@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { iif } = require('../../../dist/lib/es5/index');
+const { iif } = require('../../../dist/lib/es5');
 
 describe('iif', () => {
   test('basic', () => {

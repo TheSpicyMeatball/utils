@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.com/TheSpicyMeatball/utils.svg?branch=main)](https://travis-ci.com/TheSpicyMeatball/utils)
 [![Coverage Status](https://coveralls.io/repos/github/TheSpicyMeatball/utils/badge.svg?branch=main)](https://coveralls.io/github/TheSpicyMeatball/utils?branch=main)
 [![dependencies Status](https://status.david-dm.org/gh/TheSpicyMeatball/utils.svg)](https://david-dm.org/TheSpicyMeatball/utils)
-[![npm version](https://badge.fury.io/js/utils.svg)](https://badge.fury.io/js/utils)
 
 # @paravano/utils
 
@@ -47,7 +46,7 @@ import { isNilOrEmpty, take } from '@paravano/utils';
       <th>Description</th>
     </tr>
     </thead>
-    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/math/inRange/README.md">inRange</a></td><td>Determines whether or not the value is within the numeric range</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/math/round/README.md">round</a></td><td>Rounds a number to a maximum specified number of significant digits</td></tr></tbody>
+    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/math/range/README.md">range</a></td><td>Determines whether or not the value is within the numeric range</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/math/round/README.md">round</a></td><td>Rounds a number to a maximum specified number of significant digits</td></tr></tbody>
   </table>
 
 <h2>Object</h2>

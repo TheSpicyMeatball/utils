@@ -1,7 +1,7 @@
 import { isNotNilOrEmpty } from '../../value/isNotNilOrEmpty';
 import { type } from '../../type/type';
-import { assign } from './../assign';
-import { keys } from './../keys';
+import { assign } from '../assign';
+import { keys } from '../keys';
 
 /**
  * Immutably sorts the object keys

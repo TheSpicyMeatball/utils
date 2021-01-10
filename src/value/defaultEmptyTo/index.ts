@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { isNotNilOrEmpty } from '../isNotNilOrEmpty/index';
+import { isNotNilOrEmpty } from '../isNotNilOrEmpty';
 
 /**
  * Returns a default value if the original value is null, undefined, or empty

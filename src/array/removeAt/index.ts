@@ -1,5 +1,5 @@
 import { type } from '../../type/type';
-import { isNilOrEmpty } from './../../value/isNilOrEmpty/index';
+import { isNilOrEmpty } from '../../value/isNilOrEmpty';
 
 /**
  * Immutably removes an item at the specified index of the array

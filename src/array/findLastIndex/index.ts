@@ -1,5 +1,5 @@
-import { last } from './../last/index';
-import { findIndexes } from './../findIndexes/index';
+import { last } from '../last';
+import { findIndexes } from '../findIndexes';
 
 /**
  * Finds the last index in an array that matches the predicate

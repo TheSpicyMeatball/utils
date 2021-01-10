@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { reverse } = require('../../../dist/lib/es5/index');
+const { reverse } = require('../../../dist/lib/es5');
 
 describe('reverse', () => {
   const array = [7, 25, 21];

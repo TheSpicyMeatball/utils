@@ -1,4 +1,4 @@
-import { count } from '../count/index';
+import { count } from '../count';
 import { isArray } from '../../type/isArray';
 
 /**

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { replaceAt } = require('../../../dist/lib/es5/index');
+const { replaceAt } = require('../../../dist/lib/es5');
 
 describe('replaceAt', () => {
   const array = [7, 25, 21];

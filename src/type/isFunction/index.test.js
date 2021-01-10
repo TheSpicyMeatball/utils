@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isFunction } = require('../../../dist/lib/es5/index');
+const { isFunction } = require('../../../dist/lib/es5');
 
 describe('isFunction', () => {
   test('basic', () => {

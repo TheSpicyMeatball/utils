@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { toggle } = require('../../../dist/lib/es5/index');
+const { toggle } = require('../../../dist/lib/es5');
 
 describe('toggle', () => {
   const array = [1, 2, 3];

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isSymbol } = require('../../../dist/lib/es5/index');
+const { isSymbol } = require('../../../dist/lib/es5');
 
 describe('isSymbol', () => {
   test('basic', () => {

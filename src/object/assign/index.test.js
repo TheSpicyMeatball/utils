@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { assign } = require('../../../dist/lib/es5/index');
+const { assign } = require('../../../dist/lib/es5');
 
 describe('assign', () => {
   test('basic', () => {

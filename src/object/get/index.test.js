@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { get } = require('../../../dist/lib/es5/index');
+const { get } = require('../../../dist/lib/es5');
 
 describe('get', () => {
   const obj = { a: { b: { c: 3 }, d: null } };

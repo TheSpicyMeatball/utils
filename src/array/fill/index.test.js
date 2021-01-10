@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { fill } = require('../../../dist/lib/es5/index');
+const { fill } = require('../../../dist/lib/es5');
 
 describe('fill', () => {
   test('basic', () => {

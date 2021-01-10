@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { removeKeys } = require('../../../dist/lib/es5/index');
+const { removeKeys } = require('../../../dist/lib/es5');
 
 describe('assign', () => {
   const obj = { hello: 'world', hi: 'earth', hey: 'planet' };

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { trimStart } = require('../../../dist/lib/es5/index');
+const { trimStart } = require('../../../dist/lib/es5');
 
 describe('trimStart', () => {
   test('basic', () => {

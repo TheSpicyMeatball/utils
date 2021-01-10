@@ -1,4 +1,4 @@
-import { fill } from './../fill/index';
+import { fill } from '../fill';
 import { type } from '../../type/type';
 import { isNilOrEmpty } from '../../value/isNilOrEmpty';
 

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { findIndexes } = require('../../../dist/lib/es5/index');
+const { findIndexes } = require('../../../dist/lib/es5');
 
 describe('findIndexes', () => {
   const array = [7, 25, 21, 17, 42];

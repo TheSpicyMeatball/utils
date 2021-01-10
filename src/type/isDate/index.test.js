@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isDate } = require('../../../dist/lib/es5/index');
+const { isDate } = require('../../../dist/lib/es5');
 
 describe('isDate', () => {
   test('basic', () => {

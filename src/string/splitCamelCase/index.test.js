@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { splitCamelCase } = require('../../../dist/lib/es5/index');
+const { splitCamelCase } = require('../../../dist/lib/es5');
 
 describe('splitCamelCase', () => {
   test('basic', () => {

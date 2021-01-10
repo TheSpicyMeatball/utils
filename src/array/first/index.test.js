@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { first } = require('../../../dist/lib/es5/index');
+const { first } = require('../../../dist/lib/es5');
 
 describe('first', () => {
   const array = [7, 25, 21, 17, 42];

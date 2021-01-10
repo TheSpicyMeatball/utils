@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { sortReduceSemver } = require('../../../dist/lib/es5/index');
+const { sortReduceSemver } = require('../../../dist/lib/es5');
 
 describe('sortReduceSemver', () => {
   test('basic', () => {

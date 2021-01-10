@@ -1,7 +1,8 @@
-import { fill } from './../fill/index';
+import { fill } from '../fill';
 import { splice } from '../splice';
-import { isNilOrEmpty } from './../../value/isNilOrEmpty/index';
+import { isNilOrEmpty } from '../../value/isNilOrEmpty';
 import { isArray } from '../../type/isArray';
+import { pad } from '../pad';
 
 /**
  * Immutably inserts the item(s) at the specified index
@@ -25,7 +26,7 @@ export const insertAt = <T = unknown>(array: T[], index: number, items: T[]) : T
   if (!isArray(array)) return fill<T>(index).concat(items);
 
   if (index < 0 && Math.abs(index) > array.length) {
-    return items.concat(fill<T>(Math.abs(index + array.length) - items.length)).concat(array);
+    return pad(items, Math.abs(index + array.length) - items.length).concat(array);
   } else if (index < 0) {
     return splice(array, array.length + index + 1, 0, ...items);
   }

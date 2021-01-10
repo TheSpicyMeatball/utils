@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { camel } = require('../../../dist/lib/es5/index');
+const { camel } = require('../../../dist/lib/es5');
 
 describe('camel', () => {
   test('basic', () => {

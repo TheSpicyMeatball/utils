@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isObject } = require('../../../dist/lib/es5/index');
+const { isObject } = require('../../../dist/lib/es5');
 
 describe('isObject', () => {
   test('basic', () => {

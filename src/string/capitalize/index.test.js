@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { capitalize } = require('../../../dist/lib/es5/index');
+const { capitalize } = require('../../../dist/lib/es5');
 
 describe('capitalize', () => {
   test('basic', () => {

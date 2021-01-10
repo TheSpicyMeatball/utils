@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { drop } = require('../../../dist/lib/es5/index');
+const { drop } = require('../../../dist/lib/es5');
 
 describe('drop', () => {
   const array = [1, 2, 3, 4];

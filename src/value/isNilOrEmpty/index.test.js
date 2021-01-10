@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isNilOrEmpty } = require('../../../dist/lib/es5/index');
+const { isNilOrEmpty } = require('../../../dist/lib/es5');
 
 describe('isNilOrEmpty', () => {  
   test('true', () => {

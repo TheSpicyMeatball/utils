@@ -25,7 +25,7 @@ export { iif } from './logic/iif';
 
 // math
 export { round } from './math/round';
-export { inRange } from './math/inRange';
+export { range } from './math/range';
 
 // object
 export { assign } from './object/assign';

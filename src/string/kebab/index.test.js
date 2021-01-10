@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { kebab } = require('../../../dist/lib/es5/index');
+const { kebab } = require('../../../dist/lib/es5');
 
 describe('kebab', () => {
   test('basic', () => {

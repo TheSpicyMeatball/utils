@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isBoolean } = require('../../../dist/lib/es5/index');
+const { isBoolean } = require('../../../dist/lib/es5');
 
 describe('isBoolean', () => {
   test('basic', () => {

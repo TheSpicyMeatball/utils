@@ -1,6 +1,6 @@
 import { isArray } from '../../type/isArray';
-import { isNilOrEmpty } from './../../value/isNilOrEmpty/index';
-import { fill } from './../fill/index';
+import { isNilOrEmpty } from '../../value/isNilOrEmpty';
+import { fill } from '../fill';
 
 /**
  * Immutably pads the array with {size} number of {item}

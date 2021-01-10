@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { isArray } = require('../../../dist/lib/es5/index');
+const { isArray } = require('../../../dist/lib/es5');
 
 describe('isArray', () => {
   test('basic', () => {

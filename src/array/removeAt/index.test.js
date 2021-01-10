@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const { removeAt } = require('../../../dist/lib/es5/index');
+const { removeAt } = require('../../../dist/lib/es5');
 
 describe('removeAt', () => {
   const array = [7, 25, 21];
