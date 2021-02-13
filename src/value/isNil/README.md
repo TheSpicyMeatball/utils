@@ -26,6 +26,12 @@ isNill(undefined)  //=> true
 isNill('')         //=> false
 isNill([])         //=> false
 isNill({})         //=> false
+
+// if ANY isNill:
+isNil.any('test', 0, 1, ['test'], null) //=> true
+
+// if ALL isNill:
+isNil.all(undefined, null) //=> true
 ```
 
     

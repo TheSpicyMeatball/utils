@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { isEmpty } from '../isEmpty';
+import { all, any } from '../_private';
 
 /**
  * Returns true if the value is NOT empty
@@ -20,5 +21,19 @@ import { isEmpty } from '../isEmpty';
  * isNotEmpty(true)             //=> true
  * isNotEmpty(false)            //=> true
  * isNotEmpty(() => undefined)  //=> true
+ * 
+ * // if ANY isNotEmpty:
+ * isNotEmpty.any(undefined, null, '', [], {}, 'test') //=> true
+ * 
+ * // if ALL isNotEmpty:
+ * isNotEmpty.all('test', 0, 1, ['test']) //=> true
  */
-export const isNotEmpty = (value: any) : boolean => !isEmpty(value);
+const isNotEmpty = (value: any) : boolean => !isEmpty(value);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+isNotEmpty.any = (...args: any[]) => any(isNotEmpty, ...args);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+isNotEmpty.all = (...args: any[]) => all(isNotEmpty, ...args);
+
+export { isNotEmpty };

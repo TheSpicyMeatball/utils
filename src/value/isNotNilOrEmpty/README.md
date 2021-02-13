@@ -32,6 +32,12 @@ isNotNilOrEmpty([25])             //=> true
 isNotNilOrEmpty(0)                //=> true
 isNotNilOrEmpty(true)             //=> true
 isNotNilOrEmpty(() => undefined)  //=> true
+
+// if ANY isNotNilOrEmpty:
+isNotNilOrEmpty.any(null, undefined, '', [], {}, 'test')  //=> true
+
+// if ALL isNotNilOrEmpty:
+isNotNilOrEmpty.all('test', 0, 1, ['test'])  //=> true;
 ```
 
     

@@ -22,4 +22,52 @@ describe('isEmpty', () => {
     expect(isEmpty(Symbol('my symbol'))).toBe(false);
     expect(isEmpty(new Date())).toBe(false);
   });
+
+  test('any => true', () => {
+    expect(isEmpty.any(undefined)).toBe(true);
+    expect(isEmpty.any(null)).toBe(true);
+    expect(isEmpty.any('')).toBe(true);
+    expect(isEmpty.any([])).toBe(true);
+    expect(isEmpty.any({})).toBe(true);
+    
+    expect(isEmpty.any('test', 0, 1, ['test'], null)).toBe(true);
+  });
+
+  test('any => false', () => {
+    expect(isEmpty.any('  ')).toBe(false);
+    expect(isEmpty.any({x: 'x'})).toBe(false);
+    expect(isEmpty.any([25])).toBe(false);
+    expect(isEmpty.any(0)).toBe(false);
+    expect(isEmpty.any(true)).toBe(false);
+    expect(isEmpty.any(false)).toBe(false);
+    expect(isEmpty.any(() => undefined)).toBe(false);
+    expect(isEmpty.any(Symbol('my symbol'))).toBe(false);
+    expect(isEmpty.any(new Date())).toBe(false);
+
+    expect(isEmpty.any('test', 0, 1, ['test'])).toBe(false);
+  });
+
+  test('all => true', () => {
+    expect(isEmpty.all(undefined)).toBe(true);
+    expect(isEmpty.all(null)).toBe(true);
+    expect(isEmpty.all('')).toBe(true);
+    expect(isEmpty.all([])).toBe(true);
+    expect(isEmpty.all({})).toBe(true);
+    
+    expect(isEmpty.all(undefined, null, '', [], {})).toBe(true);
+  });
+
+  test('all => false', () => {
+    expect(isEmpty.all('  ')).toBe(false);
+    expect(isEmpty.all({x: 'x'})).toBe(false);
+    expect(isEmpty.all([25])).toBe(false);
+    expect(isEmpty.all(0)).toBe(false);
+    expect(isEmpty.all(true)).toBe(false);
+    expect(isEmpty.all(false)).toBe(false);
+    expect(isEmpty.all(() => undefined)).toBe(false);
+    expect(isEmpty.all(Symbol('my symbol'))).toBe(false);
+    expect(isEmpty.all(new Date())).toBe(false);
+
+    expect(isEmpty.all('test', 0, 1, ['test'])).toBe(false);
+  });
 });

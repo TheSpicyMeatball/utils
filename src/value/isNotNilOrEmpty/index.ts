@@ -1,5 +1,6 @@
 import { isNotNil } from '../isNotNil';
 import { isNotEmpty } from '../isNotEmpty';
+import { all, any } from '../_private';
 
 /**
  * Returns true if the value is NOT null, undefined, or empty
@@ -20,5 +21,19 @@ import { isNotEmpty } from '../isNotEmpty';
  * isNotNilOrEmpty(0)                //=> true
  * isNotNilOrEmpty(true)             //=> true
  * isNotNilOrEmpty(() => undefined)  //=> true
+ * 
+ * // if ANY isNotNilOrEmpty:
+ * isNotNilOrEmpty.any(null, undefined, '', [], {}, 'test')  //=> true
+ * 
+ * // if ALL isNotNilOrEmpty:
+ * isNotNilOrEmpty.all('test', 0, 1, ['test'])  //=> true;
  */
-export const isNotNilOrEmpty = (value: unknown) : boolean => isNotNil(value) && isNotEmpty(value);
+const isNotNilOrEmpty = (value: unknown) : boolean => isNotNil(value) && isNotEmpty(value);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+isNotNilOrEmpty.any = (...args: any[]) => any(isNotNilOrEmpty, ...args);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+isNotNilOrEmpty.all = (...args: any[]) => all(isNotNilOrEmpty, ...args);
+
+export { isNotNilOrEmpty };

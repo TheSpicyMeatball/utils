@@ -31,6 +31,12 @@ isNotEmpty(0)                //=> true
 isNotEmpty(true)             //=> true
 isNotEmpty(false)            //=> true
 isNotEmpty(() => undefined)  //=> true
+
+// if ANY isNotEmpty:
+isNotEmpty.any(undefined, null, '', [], {}, 'test') //=> true
+
+// if ALL isNotEmpty:
+isNotEmpty.all('test', 0, 1, ['test']) //=> true
 ```
 
     

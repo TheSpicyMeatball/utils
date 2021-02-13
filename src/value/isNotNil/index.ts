@@ -1,4 +1,6 @@
 import { isNil } from '../isNil';
+import { all, any } from '../_private';
+
 /**
  * Returns true if the value is NOT null or undefined
  * 
@@ -12,5 +14,19 @@ import { isNil } from '../isNil';
  * isNotNil('')         //=> true
  * isNotNil([])         //=> true
  * isNotNil({})         //=> true
+ * 
+ * // if ANY isNotNil:
+ * isNotNil.any(undefined, null, '', [], {}, 'test') //=> true
+ * 
+ * // if ALL isNotNil:
+ * isNotNil.all('', [], {}, 'test') //=> true
  */
-export const isNotNil = (value: unknown) : boolean => !isNil(value);
+const isNotNil = (value: unknown) : boolean => !isNil(value);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+isNotNil.any = (...args: any[]) => any(isNotNil, ...args);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+isNotNil.all = (...args: any[]) => all(isNotNil, ...args);
+
+export { isNotNil };
