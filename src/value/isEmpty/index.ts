@@ -2,7 +2,8 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { type } from '../../type/type';
 import { keys } from '../../object/keys';
-import { all, any } from '../_private';
+import { all } from '../../logic/all';
+import { any } from '../../logic/any';
 
 /**
  * Returns true if the value is empty

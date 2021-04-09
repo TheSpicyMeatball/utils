@@ -21,7 +21,10 @@ export { take } from './array/take';
 export { toggle } from './array/toggle';
 
 // logic
+export { all } from './logic/all';
+export { any } from './logic/any';
 export { iif } from './logic/iif';
+export { or } from './logic/or';
 
 // math
 export { round } from './math/round';

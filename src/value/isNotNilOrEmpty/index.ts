@@ -1,6 +1,7 @@
 import { isNotNil } from '../isNotNil';
 import { isNotEmpty } from '../isNotEmpty';
-import { all, any } from '../_private';
+import { all } from '../../logic/all';
+import { any } from '../../logic/any';
 
 /**
  * Returns true if the value is NOT null, undefined, or empty

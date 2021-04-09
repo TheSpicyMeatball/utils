@@ -10,7 +10,7 @@
 import { isNilOrEmpty, take } from '@paravano/utils';
 ```
 
-<p><b>Version:</b> 1.3.0</p>
+<p><b>Version:</b> 1.4.0</p>
 
 > Click on each function name for details and examples
 
@@ -35,7 +35,7 @@ import { isNilOrEmpty, take } from '@paravano/utils';
       <th>Description</th>
     </tr>
     </thead>
-    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/logic/iif/README.md">iif</a></td><td>Performs an inline if and returns either {whenTrue} or {whenFalse}</td></tr></tbody>
+    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/logic/all/README.md">all</a></td><td>Returns true if all value in {args} match the {check}</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/logic/any/README.md">any</a></td><td>Returns true if any value in {args} matches the {check}</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/logic/iif/README.md">iif</a></td><td>Performs an inline if and returns either {whenTrue} or {whenFalse}</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/logic/or/README.md">or</a></td><td>Returns true if {value} has equality with any item in {args}</td></tr></tbody>
   </table>
 
 <h2>Math</h2>

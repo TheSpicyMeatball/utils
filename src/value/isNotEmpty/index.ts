@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import { isEmpty } from '../isEmpty';
-import { all, any } from '../_private';
+import { all } from '../../logic/all';
+import { any } from '../../logic/any';
 
 /**
  * Returns true if the value is NOT empty

@@ -1,3 +1,6 @@
+## [1.4.0] - 2021-04-09
+- Added dedicated any and all functions to logic utils
+
 ## [1.2.0] - 2021-02-13
 - Added any and all functions to value utils
 
