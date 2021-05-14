@@ -33,7 +33,7 @@ import { RangeBoundary } from '../../types';
  * type RangeBoundary = { bound: number, inclusive: boolean };
  * @docgen_import { range, RangeBoundary }
  * @docgen_import_note
- * <code>RangeBoundary</code> is a TypeScript type that can only be imported in TypeScript projects. However, you can still 
+ * <code>RangeBoundary</code> is a TypeScript type that can be imported only in TypeScript projects. However, you can still 
  * pass in an object with the same shape to the <code>upper</code> and <code>lower</code> params for non-TypeScript usage.
  * @docgen_note
  * The boundaries default to lower inclusive and upper exclusive to make it convenient to test from within an array: <code>range(0, array.length)(25)</code>

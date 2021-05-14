@@ -19,7 +19,7 @@ type RangeBoundary = { bound: number, inclusive: boolean };
 import { range, RangeBoundary } from '@paravano/utils';
 ```
 
-  <blockquote><p><code>RangeBoundary</code> is a TypeScript type that can only be imported in TypeScript projects. However, you can still 
+  <blockquote><p><code>RangeBoundary</code> is a TypeScript type that can be imported only in TypeScript projects. However, you can still 
 pass in an object with the same shape to the <code>upper</code> and <code>lower</code> params for non-TypeScript usage.</p></blockquote><h4>Examples</h4>
 
 

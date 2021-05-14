@@ -1,5 +1,5 @@
 <h2>all&lt;T&gt;</h2>
-<p>Returns true if all value in {args} match the {check}</p>
+<p>Returns true if all values in {args} match the {check}</p>
 <p>Since v1.4.0</p>
 <table>
       <thead>

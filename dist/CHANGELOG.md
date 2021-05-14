@@ -1,3 +1,6 @@
+## [1.5.0] - 2021-05-14
+- Added pipe util
+
 ## [1.4.0] - 2021-04-09
 - Added dedicated any and all functions to logic utils
 

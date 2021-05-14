@@ -1,7 +1,7 @@
 import { isNilOrEmpty } from '../../value/isNilOrEmpty';
 
 /**
- * Returns true if all value in {args} match the {check}
+ * Returns true if all values in {args} match the {check}
  * 
  * @since v1.4.0
  * @category Logic

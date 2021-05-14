@@ -20,6 +20,9 @@ export { splice } from './array/splice';
 export { take } from './array/take';
 export { toggle } from './array/toggle';
 
+// function
+export { pipe } from './function/pipe';
+
 // logic
 export { all } from './logic/all';
 export { any } from './logic/any';
@@ -78,4 +81,4 @@ export { isNotEmpty } from './value/isNotEmpty';
 export { isNotNil } from './value/isNotNil';
 
 // types
-export { RangeBoundary } from './types';
+export { AnyFunction, RangeBoundary } from './types';
