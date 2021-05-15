@@ -8,7 +8,7 @@ import { AnyFunction } from '../../types';
  * @category Function
  * @template {T} - The type of the initial input arg
  * @template {TReturn} - The return type
- * @param {AnyFunction[]} funcs - The function queue
+ * @param {...AnyFunction} funcs - The function queue
  * @returns {(value?: T) => TReturn | T}
  * @example
  * const addOne = x => x + 1;
