@@ -7,7 +7,7 @@
         <th>Param</th>
         <th>Type</th></tr>
       </thead>
-      <tbody><tr><td><p><b>funcs</b></p>The function queue</td><td>AnyFunction[]</td></tr></tbody>
+      <tbody><tr><td><p><b>funcs</b></p>The function queue</td><td>...AnyFunction</td></tr></tbody>
     </table><p><b>Returns:</b> {(value?: T) =&gt; TReturn | T}</p><h4>Supporting Types</h4>
 
 ```
