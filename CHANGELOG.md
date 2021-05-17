@@ -1,3 +1,6 @@
+## [1.6.0] - 2021-05-17
+- Updated removeAt to accept multiple indexes
+
 ## [1.5.0] - 2021-05-14
 - Added pipe util
 
