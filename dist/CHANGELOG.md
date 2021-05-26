@@ -1,3 +1,6 @@
+## [1.7.0] - 2021-05-26
+- Added calcPerformance util
+
 ## [1.6.0] - 2021-05-17
 - Updated removeAt to accept multiple indexes
 
