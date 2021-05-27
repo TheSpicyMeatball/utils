@@ -10,7 +10,7 @@
 import { isNilOrEmpty, take } from '@paravano/utils';
 ```
 
-<p><b>Version:</b> 1.7.0</p>
+<p><b>Version:</b> 1.8.0</p>
 
 > Click on each function name for details and examples
 
@@ -35,7 +35,7 @@ import { isNilOrEmpty, take } from '@paravano/utils';
       <th>Description</th>
     </tr>
     </thead>
-    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/function/calcPerformance/README.md">calcPerformance</a></td><td>Calculates the execution time of a function in milliseconds</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/function/pipe/README.md">pipe</a></td><td>Executes a queue of nested functions where the result of each function is fed as an argument into the subsequent function in the queue</td></tr></tbody>
+    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/function/executionTime/README.md">executionTime</a></td><td>Calculates the execution time of a function in milliseconds</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/function/pipe/README.md">pipe</a></td><td>Executes a queue of nested functions where the result of each function is fed as an argument into the subsequent function in the queue</td></tr></tbody>
   </table>
 
 <h2>Logic</h2>

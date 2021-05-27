@@ -1,3 +1,6 @@
+## [1.8.0] - 2021-05-27
+- Renamed calcPerformance to executionTime; kept alias for calcPerformance for backward compatibility
+
 ## [1.7.0] - 2021-05-26
 - Added calcPerformance util
 

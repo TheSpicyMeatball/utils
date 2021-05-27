@@ -1,4 +1,4 @@
-<h2>calcPerformance</h2>
+<h2>executionTime</h2>
 <p>Calculates the execution time of a function in milliseconds</p>
 <p>Since v1.7.0</p>
 <table>

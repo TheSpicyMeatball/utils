@@ -21,7 +21,7 @@ import { AnyFunction } from '../../types';
  * @docgen_import_note
  * <code>AnyFunction</code> is a TypeScript type that can be imported only in TypeScript projects.
  */
-export const calcPerformance = (performance: { now: () => number }, n = 1) => (func: AnyFunction, ...args: any[]) : number => {
+export const executionTime = (performance: { now: () => number }, n = 1) => (func: AnyFunction, ...args: any[]) : number => {
   const measure = () => {
     const t0 = performance.now();
     func(...args);

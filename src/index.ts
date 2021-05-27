@@ -22,7 +22,7 @@ export { toggle } from './array/toggle';
 
 // function
 export { pipe } from './function/pipe';
-export { calcPerformance } from './function/calcPerformance';
+export { executionTime, executionTime as calcPerformance } from './function/executionTime';
 
 // logic
 export { all } from './logic/all';
