@@ -5,6 +5,8 @@ const { camel } = require('../../../dist/lib/es5');
 describe('camel', () => {
   test('basic', () => {
     expect(camel('Hello World')).toBe('helloWorld');
+    expect(camel('HelloWorld')).toBe('helloWorld');
+    expect(camel('Hello')).toBe('hello');
     expect(camel('-%^-hello-world--')).toBe('helloWorld');
     expect(camel('$@__HELLO+WORLD__')).toBe('helloWorld');
     expect(camel('2Hello 7world')).toBe('hello7World');
