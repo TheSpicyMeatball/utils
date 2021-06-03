@@ -26,7 +26,7 @@ export const camel = (value: string) : string => {
   const match = first(first(matches), '');
 
   // If it's already perfectly camel-cased, return
-  if (!/[^a-zA-Z0-9]/g.test(match)) return match;
+  if (!/[^a-zA-Z0-9]/g.test(match)) return match.charAt(0).toLowerCase() + match.slice(1);
 
   let output = match.replace(/[^a-zA-Z0-9]/g, ' ').toLowerCase();
   
