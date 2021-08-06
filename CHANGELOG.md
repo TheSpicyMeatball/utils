@@ -1,3 +1,6 @@
+## [1.9.0] - 2021-08-06
+- Added leadingZero
+
 ## [1.8.0] - 2021-05-27
 - Renamed calcPerformance to executionTime; kept alias for calcPerformance for backward compatibility
 

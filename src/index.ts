@@ -53,6 +53,7 @@ export { sortReduceString } from './sorting/sortReduceString';
 export { camel } from './string/camel';
 export { capitalize } from './string/capitalize';
 export { kebab } from './string/kebab';
+export { leadingZero } from './string/leadingZero';
 export { remove } from './string/remove';
 export { splitCamelCase } from './string/splitCamelCase';
 export { trim } from './string/trim';
