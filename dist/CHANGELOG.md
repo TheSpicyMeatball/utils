@@ -1,3 +1,6 @@
+## [1.10.0] - 2021-09-10
+- Added fuzzyMatch, initials
+
 ## [1.9.0] - 2021-08-06
 - Added leadingZero
 

@@ -52,6 +52,8 @@ export { sortReduceString } from './sorting/sortReduceString';
 // string
 export { camel } from './string/camel';
 export { capitalize } from './string/capitalize';
+export { fuzzyMatch } from './string/fuzzyMatch';
+export { initials } from './string/initials';
 export { kebab } from './string/kebab';
 export { leadingZero } from './string/leadingZero';
 export { remove } from './string/remove';
