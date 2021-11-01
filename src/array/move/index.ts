@@ -1,4 +1,4 @@
-import { range } from '../../math/range';
+import { range } from '../../number/range';
 import { isArray } from '../../type/isArray';
 import { removeAt } from '../removeAt';
 import { insertAt } from '../insertAt';

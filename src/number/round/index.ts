@@ -2,7 +2,7 @@
  * Rounds a number to a maximum specified number of significant digits
  * 
  * @since v0.0.1
- * @category Math
+ * @category Number
  * @param {number} value - The value to round
  * @param {TValues} values - The maximum number of significant digits to display (e.g. '0' would round to a whole number, '2' would round to at most two decimal places)
  * @returns {number}

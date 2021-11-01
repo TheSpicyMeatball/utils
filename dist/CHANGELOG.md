@@ -1,3 +1,6 @@
+## [1.11.0] - 2021-11-01
+- Added replaceIf, commaString
+
 ## [1.10.0] - 2021-09-10
 - Added fuzzyMatch, initials
 

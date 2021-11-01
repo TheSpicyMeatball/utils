@@ -15,6 +15,7 @@ export { pad } from './array/pad';
 export { pluck } from './array/pluck';
 export { removeAt } from './array/removeAt';
 export { replaceAt } from './array/replaceAt';
+export { replaceIf } from './array/replaceIf';
 export { reverse } from './array/reverse';
 export { splice } from './array/splice';
 export { take } from './array/take';
@@ -30,9 +31,10 @@ export { any } from './logic/any';
 export { iif } from './logic/iif';
 export { or } from './logic/or';
 
-// math
-export { round } from './math/round';
-export { range } from './math/range';
+// number
+export { commaString } from './number/commaString';
+export { round } from './number/round';
+export { range } from './number/range';
 
 // object
 export { assign } from './object/assign';

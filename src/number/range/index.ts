@@ -6,7 +6,7 @@ import { RangeBoundary } from '../../types';
  * Determines whether or not the value is within the numeric range
  * 
  * @since v0.0.1
- * @category Math
+ * @category Number
  * @param {number | RangeBoundary} lower - The lower bound; by default this is considered inclusive
  * @param {number | RangeBoundary} upper - The upper bound; by default this is considered exclusive
  * @returns {(value: number) => boolean}
