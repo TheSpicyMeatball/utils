@@ -14,6 +14,7 @@ export { move } from './array/move';
 export { pad } from './array/pad';
 export { pluck } from './array/pluck';
 export { removeAt } from './array/removeAt';
+export { removeIf } from './array/removeIf';
 export { replaceAt } from './array/replaceAt';
 export { replaceIf } from './array/replaceIf';
 export { reverse } from './array/reverse';

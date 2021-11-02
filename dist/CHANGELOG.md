@@ -1,3 +1,6 @@
+## [1.12.0] - 2021-11-02
+- Added removeIf
+
 ## [1.11.0] - 2021-11-01
 - Added replaceIf, commaString
 

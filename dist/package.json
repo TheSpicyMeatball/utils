@@ -1,6 +1,6 @@
 {
   "name": "@paravano/utils",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "A set of JavaScript utils",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
