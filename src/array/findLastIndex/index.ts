@@ -1,6 +1,3 @@
-import { last } from '../last';
-import { findIndexes } from '../findIndexes';
-
 /**
  * Finds the last index in an array that matches the predicate
  * 
@@ -15,4 +12,12 @@ import { findIndexes } from '../findIndexes';
  * 
  * findIndexes(array, item => item >= 25 )  //=> 4
  */
-export const findLastIndex = <T = unknown>(array: T[], predicate: (item: T) => boolean) : number => last(findIndexes(array, predicate), -1);
+export const findLastIndex = <T = unknown>(array: T[], predicate: (item: T) => boolean) : number => {
+  for (let index = array.length - 1; index >= 0; index--) {
+    if (predicate(array[index])) {
+      return index;
+    }    
+  }
+  
+  return -1;
+};

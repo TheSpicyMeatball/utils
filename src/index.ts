@@ -26,6 +26,23 @@ export { toggle } from './array/toggle';
 export { pipe } from './function/pipe';
 export { executionTime, executionTime as calcPerformance } from './function/executionTime';
 
+// keyboard
+export { altKeyPressed } from './keyboard/altKeyPressed';
+export { backspaceKeyPressed } from './keyboard/backspaceKeyPressed';
+export { ctrlKeyPressed } from './keyboard/ctrlKeyPressed';
+export { deleteKeyPressed } from './keyboard/deleteKeyPressed';
+export { downKeyPressed } from './keyboard/downKeyPressed';
+export { enterKeyPressed } from './keyboard/enterKeyPressed';
+export { escKeyPressed } from './keyboard/escKeyPressed';
+export { insertKeyPressed } from './keyboard/insertKeyPressed';
+export { keyPressed } from './keyboard/keyPressed';
+export { leftKeyPressed } from './keyboard/leftKeyPressed';
+export { rightKeyPressed } from './keyboard/rightKeyPressed';
+export { shiftKeyPressed } from './keyboard/shiftKeyPressed';
+export { spaceKeyPressed } from './keyboard/spaceKeyPressed';
+export { tabKeyPressed } from './keyboard/tabKeyPressed';
+export { upKeyPressed } from './keyboard/upKeyPressed';
+
 // logic
 export { all } from './logic/all';
 export { any } from './logic/any';

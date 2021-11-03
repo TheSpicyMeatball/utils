@@ -5,6 +5,8 @@ const { insertAt } = require('../../../dist/lib/es5');
 describe('insertAt', () => {
   const array = [7, 25, 21, 17, 42];
 
+  this.__spreadArray = undefined;
+
   test('basic', () => {
     expect(insertAt(array, 1, [99])).toStrictEqual([7, 99, 25, 21, 17, 42]);
     expect(insertAt(array, 1, [99, 98])).toStrictEqual([7, 99, 98, 25, 21, 17, 42]);

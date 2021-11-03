@@ -7,7 +7,7 @@
         <th>Param</th>
         <th>Type</th><th>Default</th></tr>
       </thead>
-      <tbody><tr><td><p><b>array</b></p>The array of items</td><td>T[]</td><td></td></tr><tr><td><p><b>predicate</b></p>Function that returns true if the item should be removed or false if it should not</td><td>(item: T) =&gt; boolean</td><td></td></tr><tr><td><p><b>all <span>(optional)</span></b></p>Whether or not all items matching the predicate should be removed or just the first match</td><td>boolean</td><td>true</td></tr></tbody>
+      <tbody><tr><td><p><b>array</b></p>The array of items</td><td>T[]</td><td></td></tr><tr><td><p><b>predicate</b></p>Function that returns true if the item should be removed or false if it should not</td><td>(item: T) =&gt; boolean</td><td></td></tr><tr><td><p><b>all <span>(optional)</span></b></p>Whether or not all items matching the predicate should be removed or just the first match</td><td>boolean</td><td>false</td></tr></tbody>
     </table><p><b>Returns:</b> {T[]}</p>
 <h4>Import</h4>
 

@@ -10,7 +10,7 @@
 import { isNilOrEmpty, take } from '@paravano/utils';
 ```
 
-<p><b>Version:</b> 1.12.0</p>
+<p><b>Version:</b> 1.13.0</p>
 
 > Click on each function name for details and examples
 
@@ -36,6 +36,17 @@ import { isNilOrEmpty, take } from '@paravano/utils';
     </tr>
     </thead>
     <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/function/executionTime/README.md">executionTime</a></td><td>Calculates the execution time of a function in milliseconds</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/function/pipe/README.md">pipe</a></td><td>Executes a queue of nested functions where the result of each function is fed as an argument into the subsequent function in the queue</td></tr></tbody>
+  </table>
+
+<h2>Keyboard</h2>
+<table>
+    <thead>
+    <tr>
+      <th>Function</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/altKeyPressed/README.md">altKeyPressed</a></td><td>Verifies that the Alt key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/backspaceKeyPressed/README.md">backspaceKeyPressed</a></td><td>Verifies that the Backspace key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/ctrlKeyPressed/README.md">ctrlKeyPressed</a></td><td>Verifies that the Ctrl key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/deleteKeyPressed/README.md">deleteKeyPressed</a></td><td>Verifies that the Delete key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/downKeyPressed/README.md">downKeyPressed</a></td><td>Verifies that the down arrow key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/enterKeyPressed/README.md">enterKeyPressed</a></td><td>Verifies that the Enter key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/escKeyPressed/README.md">escKeyPressed</a></td><td>Verifies that the Escape key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/insertKeyPressed/README.md">insertKeyPressed</a></td><td>Verifies that the Insert key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/keyPressed/README.md">keyPressed</a></td><td>Verifies that at least one of the provided keys was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/leftKeyPressed/README.md">leftKeyPressed</a></td><td>Verifies that the left arrow key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/rightKeyPressed/README.md">rightKeyPressed</a></td><td>Verifies that the right arrow key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/shiftKeyPressed/README.md">shiftKeyPressed</a></td><td>Verifies that the Shift key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/spaceKeyPressed/README.md">spaceKeyPressed</a></td><td>Verifies that the Space key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/tabKeyPressed/README.md">tabKeyPressed</a></td><td>Verifies that the Tab key was pressed</td></tr><tr><td><a href="https://github.com/TheSpicyMeatball/utils/tree/main/src/keyboard/upKeyPressed/README.md">upKeyPressed</a></td><td>Verifies that the up arrow key was pressed</td></tr></tbody>
   </table>
 
 <h2>Logic</h2>

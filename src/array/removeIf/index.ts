@@ -1,6 +1,5 @@
 import { isNil } from '../../value/isNil';
 import { removeAt } from '../removeAt';
-import { findIndexes } from '../findIndexes';
 import { type } from '../../type/type';
 
 /**
@@ -11,7 +10,7 @@ import { type } from '../../type/type';
  * @template {T} The type of the array
  * @param {T[]} array The array of items
  * @param {(item: T) => boolean} predicate Function that returns true if the item should be removed or false if it should not
- * @param {boolean} [all=true] Whether or not all items matching the predicate should be removed or just the first match 
+ * @param {boolean} [all=false] Whether or not all items matching the predicate should be removed or just the first match 
  * @returns {T[]}
  * @example
  * const array = [7, 25, 21];
@@ -28,7 +27,11 @@ export const removeIf = <T = unknown>(array: T[], predicate: (item: T) => boolea
   let indexes: number[] = [];
 
   if (all) {
-    indexes = findIndexes(array, predicate);
+    for (let index = array.length - 1; index >= 0; index--) {
+      if (predicate(array[index])) {
+        array = removeAt(array, index);
+      }
+    }
   } else {
     indexes = [array.findIndex(predicate)];
   }

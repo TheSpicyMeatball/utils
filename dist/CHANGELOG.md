@@ -1,3 +1,6 @@
+## [1.13.0] - 2021-11-03
+- Added keyPressed utils; performance improvements (findLastIndex, insertAt, removeIf)
+
 ## [1.12.0] - 2021-11-02
 - Added removeIf
 
