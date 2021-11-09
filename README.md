@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.com/TheSpicyMeatball/utils.svg?branch=main)](https://travis-ci.com/TheSpicyMeatball/utils)
 [![Coverage Status](https://coveralls.io/repos/github/TheSpicyMeatball/utils/badge.svg?branch=main)](https://coveralls.io/github/TheSpicyMeatball/utils?branch=main)
-[![dependencies Status](https://status.david-dm.org/gh/TheSpicyMeatball/utils.svg)](https://david-dm.org/TheSpicyMeatball/utils)
 
 # @paravano/utils
 
@@ -10,7 +9,7 @@
 import { isNilOrEmpty, take } from '@paravano/utils';
 ```
 
-<p><b>Version:</b> 1.13.0</p>
+<p><b>Version:</b> 1.13.1</p>
 
 > Click on each function name for details and examples
 

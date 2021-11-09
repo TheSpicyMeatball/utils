@@ -1,3 +1,6 @@
+## [1.13.1] - 2021-11-09
+- Added splitCamelCase to kebab to ensure a camel cased string can be kebab cased
+
 ## [1.13.0] - 2021-11-03
 - Added keyPressed utils; performance improvements (findLastIndex, insertAt, removeIf)
 

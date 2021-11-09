@@ -1,6 +1,7 @@
 import { first } from '../../array/first';
 import { isString } from '../../type/isString';
 import { isNilOrEmpty } from "../../value/isNilOrEmpty";
+import { splitCamelCase } from '../splitCamelCase';
 
 /**
  * Converts the string to kebab case
@@ -18,7 +19,7 @@ import { isNilOrEmpty } from "../../value/isNilOrEmpty";
 export const kebab = (value: string) : string => {
   if (isNilOrEmpty(value) || !isString(value)) return '';
   
-  const matches = Array.from(value.matchAll(/(?:[a-zA-Z])+.*[0-9]*/g));
+  const matches = Array.from(splitCamelCase(value).matchAll(/(?:[a-zA-Z])+.*[0-9]*/g));
 
   // Remove special chars, insert basic dashes, make lower case, remove spaces
   const output = first(first(first(matches), '').replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().match(/(?:(?:[a-zA-Z0-9])+-*(?:[a-zA-Z0-9]))*/g), '');
