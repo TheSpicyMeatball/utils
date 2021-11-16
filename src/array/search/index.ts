@@ -15,7 +15,7 @@ import { SearchOptions } from './options';
  * 
  * search(array)  //=> [21, 25, 7]
  */
-export function search<T = unknown>(array: T[], search: string | string[], options: SearchOptions = { caseSensitive: false }) : T[] {
+export function search<T = unknown>(array: T[], search: string | string[], options: SearchOptions = { caseSensitive: false, keys: [] }) : T[] {
   if (type(array) !== 'array' || isNilOrEmpty(array)) {
     return [];
   }
