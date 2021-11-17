@@ -1,7 +1,7 @@
 import { isNotEmpty } from '../..';
 import { type } from '../../type/type';
+import { SearchOptions } from '../../types';
 import { isNilOrEmpty } from '../../value/isNilOrEmpty';
-import { SearchOptions } from './options';
 
 /**
  * Searches an array of objects and returns the items that match the search
