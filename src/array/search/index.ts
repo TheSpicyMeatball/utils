@@ -6,7 +6,7 @@ import { isNilOrEmpty } from '../../value/isNilOrEmpty';
 /**
  * Searches an array of objects and returns the items that match the search
  * 
- * @since v0.0.1
+ * @since v1.14.0
  * @category Array
  * @template {T} - The type of the array
  * @param {T[]} array - The array of items

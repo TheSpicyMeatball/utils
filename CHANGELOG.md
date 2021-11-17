@@ -1,3 +1,6 @@
+## [1.14.0] - 2021-11-17
+- Added array/search
+
 ## [1.13.1] - 2021-11-09
 - Added splitCamelCase to kebab to ensure a camel cased string can be kebab cased
 

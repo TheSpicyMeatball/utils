@@ -1,6 +1,6 @@
 <h2>search</h2>
 <p>Searches an array of objects and returns the items that match the search</p>
-<p>Since v0.0.1</p>
+<p>Since v1.14.0</p>
 <table>
       <thead>
       <tr>
