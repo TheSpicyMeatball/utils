@@ -87,7 +87,7 @@ export { isString } from './type/isString';
 export { isSymbol } from './type/isSymbol';
 export { type } from './type/type';
 // types
-export { AnyFunction, RangeBoundary } from './types';
+export { AnyFunction, RangeBoundary, SearchOptions } from './types';
 export { defaultEmptyTo } from './value/defaultEmptyTo';
 // value
 export { defaultTo } from './value/defaultTo';
