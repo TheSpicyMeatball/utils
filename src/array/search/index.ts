@@ -36,16 +36,22 @@ export function search<T = unknown>(array: T[], search: string | string[], optio
   return array.filter(a => {
     let foundCount = 0;
     for (const term of searchTerms) {
+      let found = false;
       for (const key of (isNotEmpty(options.keys) ? options.keys : Object.keys(a))) {
+        if (found) {
+          continue;
+        }
         switch (type(a[key])) {
           case 'string':
             if (options.caseSensitive ? a[key].includes(term) : a[key].toLowerCase().includes(term)) {
               foundCount++;
+              found = true;
             }
             break;
           case 'number':
             if (a[key].toString().includes(term)) {
               foundCount++;
+              found = true;
             }
             break;
           default:

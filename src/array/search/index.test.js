@@ -5,15 +5,23 @@ const { search } = require('../../../dist/lib/es5');
 describe('search', () => {
   const array = [
     { name: 'John Doe', address: '123 Sesame Street', amount: 1000, date: new Date(1990, 10, 10) },
+    { name: 'John H. Doe', address: '789 NY Street', email: 'John.H.Doe@gmail.com', amount: 999, date: new Date(1990, 10, 10) },
     { name: 'Jane Doe', address: '456 Walnut Street', amount: 500, date: new Date(1990, 10, 10) },
   ];
+
+  test('search term in multiple fields only get counted once', () => {
+    expect(search(array, ['john', '123'])).toStrictEqual([{ name: 'John Doe', address: '123 Sesame Street', amount: 1000, date: new Date(1990, 10, 10) }]);
+  });
 
   test('non-array input', () => {
     expect(search('test text', 'john')).toStrictEqual([]);
   });
   
   test('basic', () => {
-    expect(search(array, 'john')).toStrictEqual([{ name: 'John Doe', address: '123 Sesame Street', amount: 1000, date: new Date(1990, 10, 10) }]);
+    expect(search(array, 'john')).toStrictEqual([
+      { name: 'John Doe', address: '123 Sesame Street', amount: 1000, date: new Date(1990, 10, 10) },
+      { name: 'John H. Doe', address: '789 NY Street', email: 'John.H.Doe@gmail.com', amount: 999, date: new Date(1990, 10, 10) },
+    ]);
   });
 
   test('basic case sensitive', () => {
