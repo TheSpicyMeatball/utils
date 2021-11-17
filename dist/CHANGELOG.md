@@ -1,3 +1,6 @@
+## [1.14.1] - 2021-11-17
+- array/search - Fix an issue where the search term appears in multiple fields
+
 ## [1.14.0] - 2021-11-17
 - Added array/search
 
