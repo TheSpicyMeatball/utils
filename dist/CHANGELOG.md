@@ -1,3 +1,6 @@
+## [1.15.0] - 2021-11-18
+- removed look back in {camel} and {kebab} to give compatibility with Safari
+
 ## [1.14.1] - 2021-11-17
 - array/search - Fix an issue where the search term appears in multiple fields
 

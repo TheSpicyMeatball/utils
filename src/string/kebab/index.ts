@@ -25,5 +25,5 @@ export const kebab = (value: string) : string => {
   const output = first(first(first(matches), '').replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().match(/(?:(?:[a-zA-Z0-9])+-*(?:[a-zA-Z0-9]))*/g), '');
 
   // Insert dashes around numbers, remove any dashes next to dashes
-  return output.replace(/(?<=\s)([a-z])|(?<=[0-9])([a-z])/g, '-$2').replace(/(?<=[a-z])([0-9])/g, '-$1').trim().replace(/-{2,}/, '-');
+  return output.replace(/( [a-z])/g, '-$1').replace(/([0-9])([a-z])/g, '$1-$2').replace(/([a-z])([0-9])/g, '$1-$2').trim().replace(/-{2,}/, '-');
 };
