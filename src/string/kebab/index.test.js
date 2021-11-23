@@ -11,6 +11,8 @@ describe('kebab', () => {
     expect(kebab('2Hello 7world')).toBe('hello-7-world');
     expect(kebab('2Hello 7wo25rld')).toBe('hello-7-wo-25-rld');
     expect(kebab('helloWorld')).toBe('hello-world');
+    expect(kebab('colorGray50')).toBe('color-gray-50');
+    expect(kebab('colorGray100')).toBe('color-gray-100');
   });
   
   test('empty', () => {

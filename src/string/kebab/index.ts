@@ -21,8 +21,8 @@ export const kebab = (value: string) : string => {
   
   const matches = Array.from(splitCamelCase(value).matchAll(/(?:[a-zA-Z])+.*[0-9]*/g));
 
-  // Remove special chars, insert basic dashes, make lower case, remove spaces
-  const output = first(first(first(matches), '').replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().match(/(?:(?:[a-zA-Z0-9])+-*(?:[a-zA-Z0-9]))*/g), '');
+  // Remove special chars, insert basic dashes, make lower case, remove spaces, remove trailing dashes
+  const output = first(first(first(matches), '').replace(/[^a-zA-Z0-9]/g, '-').toLowerCase().match(/(?:(?:[a-zA-Z0-9]?)+-*(?:[a-zA-Z0-9]?))*/g), '').replace(/-*$/, '');
 
   // Insert dashes around numbers, remove any dashes next to dashes
   return output.replace(/( [a-z])/g, '-$1').replace(/([0-9])([a-z])/g, '$1-$2').replace(/([a-z])([0-9])/g, '$1-$2').trim().replace(/-{2,}/, '-');

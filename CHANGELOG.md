@@ -1,3 +1,6 @@
+## [1.15.1] - 2021-11-23
+- fixed trailing number sometimes getting removed in {kebab} 
+
 ## [1.15.0] - 2021-11-18
 - removed look back in {camel} and {kebab} to give compatibility with Safari
 
