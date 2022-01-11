@@ -20,7 +20,7 @@ import { removeAt } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 5, 21];
 
 removeAt(array, 1)  //=> [7, 21]
@@ -31,4 +31,3 @@ removeAt(array, 1, 2)  //=> [7]
 removeAt(array, -1, 0)  //=> [5]
 ```
 
-    

@@ -20,7 +20,7 @@ import { initials } from '@paravano/utils';
 
 
 
-```    
+```
 initials('Bruce', 'Wayne');
 // => 'BW'
 
@@ -28,4 +28,3 @@ initials('clark', 'kent', 'superman');
 // => 'SK'
 ```
 
-    

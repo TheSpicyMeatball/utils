@@ -20,7 +20,7 @@ import { isNotNil } from '@paravano/utils';
 
 
 
-```    
+```
 isNotNil(null)       //=> false
 isNotNil(undefined)  //=> false
 isNotNil('')         //=> true
@@ -34,4 +34,3 @@ isNotNil.any(undefined, null, '', [], {}, 'test') //=> true
 isNotNil.all('', [], {}, 'test') //=> true
 ```
 
-    

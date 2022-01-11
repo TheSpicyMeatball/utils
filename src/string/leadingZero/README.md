@@ -20,7 +20,7 @@ import { leadingZero } from '@paravano/utils';
 
 
 
-```    
+```
 leadingZero(7)
 //=> '07'
 
@@ -28,4 +28,3 @@ leadingZero(10)
 //=> '10'
 ```
 
-    

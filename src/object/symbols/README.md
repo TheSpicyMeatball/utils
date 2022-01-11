@@ -20,7 +20,7 @@ import { symbols } from '@paravano/utils';
 
 
 
-```    
+```
 keys({ [Symbol('my symbol')]: 'value' }) //=> [Symbol('my symbol')]
 keys({})         //=> []
 keys(null)       //=> []
@@ -29,4 +29,3 @@ keys('')         //=> []
 keys([])         //=> ['length']
 ```
 
-    

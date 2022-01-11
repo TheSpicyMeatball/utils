@@ -20,7 +20,7 @@ import { sortReduceString } from '@paravano/utils';
 
 
 
-```    
+```
 const obj = { name: 'Kermit the Frog' };
 
 sortReduceString(obj)('name')
@@ -35,4 +35,3 @@ sortReduceString('user.name')(obj)
 //=> 'kermit the frog'
 ```
 
-    

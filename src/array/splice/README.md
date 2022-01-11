@@ -20,11 +20,10 @@ import { splice } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21, 17, 42];
 
 splice(array, 1, 1, 99, 98)
 //=> [7, 99, 98, 21, 17, 42]
 ```
 
-    

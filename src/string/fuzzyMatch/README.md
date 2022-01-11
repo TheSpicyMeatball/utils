@@ -20,7 +20,7 @@ import { fuzzyMatch } from '@paravano/utils';
 
 
 
-```    
+```
 fuzzyMatch('Superman', 'sman')
 // => true
 
@@ -31,4 +31,3 @@ fuzzyMatch('Batman', 'sman')
 // => false
 ```
 
-    

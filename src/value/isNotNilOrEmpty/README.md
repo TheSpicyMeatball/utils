@@ -20,7 +20,7 @@ import { isNotNilOrEmpty } from '@paravano/utils';
 
 
 
-```    
+```
 isNotNilOrEmpty(null)             //=> false
 isNotNilOrEmpty(undefined)        //=> false
 isNotNilOrEmpty('')               //=> false
@@ -40,4 +40,3 @@ isNotNilOrEmpty.any(null, undefined, '', [], {}, 'test')  //=> true
 isNotNilOrEmpty.all('test', 0, 1, ['test'])  //=> true;
 ```
 
-    

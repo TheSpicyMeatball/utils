@@ -20,7 +20,7 @@ import { commaString } from '@paravano/utils';
 
 
 
-```    
+```
 commaString(1234567);
 //=> '1,234,567'
 
@@ -28,4 +28,3 @@ commaString(1234.567);
 //=> '1,234.567'
 ```
 
-    

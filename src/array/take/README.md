@@ -20,7 +20,7 @@ import { take } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [1, 2, 3];
 
 take(array, 2)   //=> [1, 2]
@@ -28,4 +28,3 @@ take(array, -2)  //=> [2, 3]
 take(array, 25)  //=> [1, 2, 3]
 ```
 
-    

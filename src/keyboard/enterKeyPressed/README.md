@@ -20,8 +20,7 @@ import { enterKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 enterKeyPressed(event);
 ```
 
-    

@@ -20,8 +20,7 @@ import { escKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 escKeyPressed(event);
 ```
 
-    

@@ -20,8 +20,7 @@ import { leftKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 leftKeyPressed(event);
 ```
 
-    

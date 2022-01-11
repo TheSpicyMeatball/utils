@@ -1,3 +1,7 @@
+## [1.16.0] - 2022-01-11
+- added optional {reducer} to {toggle}
+- made {whenFalse} optional in {iif}
+
 ## [1.15.1] - 2021-11-23
 - fixed trailing number sometimes getting removed in {kebab} 
 

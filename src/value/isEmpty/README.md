@@ -20,7 +20,7 @@ import { isEmpty } from '@paravano/utils';
 
 
 
-```    
+```
 isEmpty('')               //=> true
 isEmpty([])               //=> true
 isEmpty({})               //=> true
@@ -39,4 +39,3 @@ isEmpty.any('test', 0, 1, ['test'], null) //=> true
 isEmpty.all(undefined, null, '', [], {})  //=> true
 ```
 
-    

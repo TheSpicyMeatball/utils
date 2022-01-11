@@ -20,7 +20,7 @@ import { sortReduceDate } from '@paravano/utils';
 
 
 
-```    
+```
 sortReduceDate('stamp')({ stamp: '03/20/2020' })
 //=> '20200220'
 
@@ -31,4 +31,3 @@ sortReduceDate('stamp', 's')({ stamp: '2020-10-20T14:48:25.000' })
 //=> '20200920144825'
 ```
 
-    

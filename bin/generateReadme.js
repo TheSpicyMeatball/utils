@@ -133,13 +133,7 @@ const generateTable = (util, packageName) => {
   let examples = existsSync(join(__dirname, '..', 'src', util.name, 'EXAMPLES.md')) ? '\n\n' + readFileSync(join(__dirname, '..', 'src', util.name, 'EXAMPLES.md'), 'utf8') + '\n\n' : '';
 
   if (isNotNilOrEmpty(util.example)) {
-    examples = examples + '\n\n' + `
-
-\`\`\`    
-${util.example.map(x => x.value).join('\n')}
-\`\`\`
-
-    `;
+    examples = examples + '\n\n' + util.example.map(x => `\n\n\`\`\`\n${x.value}\n\`\`\`\n\n`).join('');
   }
 
   if (isNotNilOrEmpty(examples)) {

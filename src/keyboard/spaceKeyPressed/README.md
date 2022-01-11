@@ -20,8 +20,7 @@ import { spaceKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 spaceKeyPressed(event);
 ```
 
-    

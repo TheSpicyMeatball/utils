@@ -20,7 +20,7 @@ import { assign } from '@paravano/utils';
 
 
 
-```    
+```
 assign({ x: 'x' }, { x: 'assign' }) //=> { x: 'assign' }
 assign({ x: 'x' }, { y: 'assign' }) //=> { x: 'x', y: 'assign' }
 assign({}, { x: 'assign' })         //=> { x: 'assign' }
@@ -28,4 +28,3 @@ assign(null, { x: 'assign' })       //=> { x: 'assign' }
 assign([], { x: 'assign' })         //=> { x: 'assign' }
 ```
 
-    

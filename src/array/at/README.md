@@ -20,9 +20,8 @@ import { at } from '@paravano/utils';
 
 
 
-```    
+```
 at([0, 1, 2], 1, 'default') //=> 1
 at([0, 1, 2], 25, 'default') //=> default
 ```
 
-    

@@ -20,10 +20,9 @@ import { findIndexes } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21, 17, 42];
 
 findIndexes(array, item => item >= 25 )  //=> [1, 4]
 ```
 
-    

@@ -20,11 +20,10 @@ import { defaultTo } from '@paravano/utils';
 
 
 
-```    
+```
 defaultTo('value', 'default')     //=> 'value'
 defaultTo('', 'default')          //=> ''
 defaultTo(undefined, 'default')   //=> 'default'
 defaultTo(undefined, 'default')   //=> 'default'
 ```
 
-    

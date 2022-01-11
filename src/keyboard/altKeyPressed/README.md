@@ -20,8 +20,7 @@ import { altKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 altKeyPressed(event);
 ```
 
-    

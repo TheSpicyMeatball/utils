@@ -25,7 +25,7 @@ pass in an object with the same shape to the <code>upper</code> and <code>lower<
 
 
 
-```    
+```
 // create a range to test multiple against values
 const inRange = range(0, 9);
 inRange(7)           //=> true
@@ -46,4 +46,3 @@ range({ bound: 0, inclusive: false }, { bound: 0, inclusive: true })(50)
 //=> true
 ```
 
-    

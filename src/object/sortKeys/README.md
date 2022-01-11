@@ -20,9 +20,8 @@ import { sortKeys } from '@paravano/utils';
 
 
 
-```    
+```
 const obj = { hamster: true, frog: false, cow: false };
 sortKeys(obj) //=> { cow: false, frog: false, hamster: true }
 ```
 
-    

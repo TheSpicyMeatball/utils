@@ -20,9 +20,8 @@ import { remove } from '@paravano/utils';
 
 
 
-```    
+```
 remove('The quick brown fox', 'quick ') //=> 'The brown fox'
 remove(null, 'quick')                   //=> ''
 ```
 
-    

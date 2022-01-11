@@ -20,8 +20,7 @@ import { tabKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 tabKeyPressed(event);
 ```
 
-    

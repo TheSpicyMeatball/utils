@@ -20,9 +20,8 @@ import { or } from '@paravano/utils';
 
 
 
-```    
+```
 or('item', 25, 7, 'item') //=> true
 or('item', 25, 7, 'something') //=> false
 ```
 
-    

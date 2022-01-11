@@ -20,7 +20,7 @@ import { is } from '@paravano/utils';
 
 
 
-```    
+```
 is('Hello world', 'string') //=> true
 is({}, 'object')            //=> true
 is(null, 'object')          //=> true
@@ -28,4 +28,3 @@ is(undefined, 'undefined')  //=> true
 is(25, 'symbol')            //=> false
 ```
 
-    

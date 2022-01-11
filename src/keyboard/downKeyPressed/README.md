@@ -20,8 +20,7 @@ import { downKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 downKeyPressed(event);
 ```
 
-    

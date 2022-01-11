@@ -20,8 +20,7 @@ import { shiftKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 shiftKeyPressed(event);
 ```
 
-    

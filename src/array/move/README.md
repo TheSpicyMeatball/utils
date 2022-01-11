@@ -20,11 +20,10 @@ import { move } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21, 42];
 
 move(array, 0, 3)  //=> [25, 21, 42, 7]
 move(array, 3, 0)  //=> [42, 7, 25, 21]
 ```
 
-    

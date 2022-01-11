@@ -20,10 +20,9 @@ import { get } from '@paravano/utils';
 
 
 
-```    
+```
 get({ a: { b: { c: 3 }, d: null } }, 'a.b.c', 'default')  => 3
 get({ a: { b: { c: 3 }, d: null } }, 'a.b.d', 'default')  => 'default'
 get({ a: { b: { c: 3 }, d: null } }, 'x.y.z', 'default')  => 'default'
 ```
 
-    

@@ -20,9 +20,8 @@ import { fill } from '@paravano/utils';
 
 
 
-```    
+```
 fill(5, 1) //=> [1, 1, 1, 1, 1]
 fill(5) //=> [undefined, undefined, undefined, undefined, undefined]
 ```
 
-    

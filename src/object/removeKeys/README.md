@@ -20,9 +20,8 @@ import { removeKeys } from '@paravano/utils';
 
 
 
-```    
+```
 const obj = { hello: 'world', hi: 'earth', hey: 'planet' };
 removeKeys(obj, ['hi', 'hey']) //=> { hello: 'world' }
 ```
 
-    

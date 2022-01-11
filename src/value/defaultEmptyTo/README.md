@@ -20,7 +20,7 @@ import { defaultEmptyTo } from '@paravano/utils';
 
 
 
-```    
+```
 defaultEmptyTo(null, 'default')              //=> 'default'
 defaultEmptyTo(undefined, 'default')         //=> 'default'
 defaultEmptyTo('', 'default')                //=> 'default'
@@ -31,4 +31,3 @@ defaultEmptyTo(['value'], 'default')         //=> ['value']
 defaultEmptyTo({ key: 'value' }, 'default')  //=> { key: 'value' }
 ```
 
-    

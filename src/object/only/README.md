@@ -20,10 +20,9 @@ import { only } from '@paravano/utils';
 
 
 
-```    
+```
 const obj = { hello: 'world', hi: 'earth', hola: 'mundo' };
 only(obj, ['hello', 'hola'])
 //=> { hello: 'world', hola: 'mundo' }
 ```
 
-    

@@ -20,8 +20,7 @@ import { backspaceKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 backspaceKeyPressed(event);
 ```
 
-    

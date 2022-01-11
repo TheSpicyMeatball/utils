@@ -20,9 +20,8 @@ import { limit } from '@paravano/utils';
 
 
 
-```    
+```
 limit([0, 1, 2], 10, 3)  //=> [0, 1, 2, 3]
 limit([0, 1, 2], 3, 3)   //=> [0, 1, 2]
 ```
 
-    

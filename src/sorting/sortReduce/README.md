@@ -20,9 +20,8 @@ import { sortReduce } from '@paravano/utils';
 
 
 
-```    
+```
 sortReduce('count')({ count: 25 })
 //=> 25
 ```
 
-    

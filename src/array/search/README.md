@@ -20,7 +20,7 @@ import { search } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [
   { name: 'John Doe', address: '123 Sesame Street', amount: 1000 },
   { name: 'Jane Doe', address: '456 Walnut Street', amount: 500 },
@@ -29,4 +29,3 @@ const array = [
 search(array, 'joh', { keys: ['name'], caseSensitive: false })  //=> [{ name: 'John Doe', address: '123 Sesame Street', amount: 1000 }]
 ```
 
-    

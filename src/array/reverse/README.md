@@ -20,10 +20,9 @@ import { reverse } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21];
 
 reverse(array)  //=> [21, 25, 7]
 ```
 
-    

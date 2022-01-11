@@ -20,7 +20,7 @@ import { drop } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [1, 2, 3];
 
 drop(array, 2)   //=> [3]
@@ -28,4 +28,3 @@ drop(array, -2)  //=> [1]
 drop(array, 25)  //=> []
 ```
 
-    

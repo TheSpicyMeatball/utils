@@ -20,7 +20,7 @@ import { round } from '@paravano/utils';
 
 
 
-```    
+```
 round(0.4, 0)    //=> 0
 round(0.5, 0)    //=> 1
 round(0.44, 1)   //=> 0.4
@@ -31,4 +31,3 @@ round(0.499, 2)  //=> 0.5
 round(0.999, 2)  //=> 1
 ```
 
-    

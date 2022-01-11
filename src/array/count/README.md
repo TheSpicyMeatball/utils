@@ -20,10 +20,9 @@ import { count } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21, 17, 42];
 
 count(array, item => item >= 25 )  //=> 2
 ```
 
-    

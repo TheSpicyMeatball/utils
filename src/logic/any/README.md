@@ -20,9 +20,8 @@ import { any } from '@paravano/utils';
 
 
 
-```    
+```
 any(value => value > 10, 25, 7) //=> true
 any(value => value > 100, 25, 7) //=> false
 ```
 
-    

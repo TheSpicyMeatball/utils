@@ -20,7 +20,7 @@ import { pluck } from '@paravano/utils';
 
 
 
-```    
+```
 const array = ['a', 'b', 'c'];
 
 pluck(array, [0, 2])      //=> ['a', 'c']
@@ -32,4 +32,3 @@ pluck(null, [0, 2])       //=> [undefined, undefined]
 pluck(undefined, [0, 2])  //=> [undefined, undefined]
 ```
 
-    

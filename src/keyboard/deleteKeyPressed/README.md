@@ -20,8 +20,7 @@ import { deleteKeyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 deleteKeyPressed(event);
 ```
 
-    

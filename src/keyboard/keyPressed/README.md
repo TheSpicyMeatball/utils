@@ -20,7 +20,7 @@ import { keyPressed } from '@paravano/utils';
 
 
 
-```    
+```
 // Check for Enter key press
 keyPressed(event, 'Enter');
 
@@ -28,4 +28,3 @@ keyPressed(event, 'Enter');
 keyPressed(event, 'Enter', 'Tab');
 ```
 
-    

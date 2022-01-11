@@ -20,10 +20,9 @@ import { has } from '@paravano/utils';
 
 
 
-```    
+```
 has({ a: { b: { c: 3 }, d: null } }, 'a.b.c')  => true
 has({ a: { b: { c: 3 }, d: null } }, 'a.b.d')  => false
 has({ a: { b: { c: 3 }, d: null } }, 'x.y.z')  => false
 ```
 
-    

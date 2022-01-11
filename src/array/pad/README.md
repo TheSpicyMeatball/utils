@@ -20,11 +20,10 @@ import { pad } from '@paravano/utils';
 
 
 
-```    
+```
 pad([1, 2, 3], 2) //=> [1, 2, 3, undefined, undefined]
 pad([1, 2, 3], -2) //=> [undefined, undefined, 1, 2, 3]
 pad([1, 2, 3], 1, 4) //=> [1, 2, 3, 4]
 pad([1, 2, 3], -1, 0) //=> [0, 1, 2, 3]
 ```
 
-    

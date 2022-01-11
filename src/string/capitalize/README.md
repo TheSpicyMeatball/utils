@@ -20,7 +20,7 @@ import { capitalize } from '@paravano/utils';
 
 
 
-```    
+```
 capitalize('fox')
 //=> 'Fox'
 
@@ -28,4 +28,3 @@ remove('the quick brown fox')
 //=> 'The Quick Brown Fox'
 ```
 
-    

@@ -20,9 +20,8 @@ import { splitCamelCase } from '@paravano/utils';
 
 
 
-```    
+```
 remove('TheQuickBrownFox') //=> 'The Quick Brown Fox'
 remove('theQuickBrownFox') //=> 'The Quick Brown Fox'
 ```
 
-    

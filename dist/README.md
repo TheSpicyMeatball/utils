@@ -9,7 +9,7 @@
 import { isNilOrEmpty, take } from '@paravano/utils';
 ```
 
-<p><b>Version:</b> 1.15.1</p>
+<p><b>Version:</b> 1.16.0</p>
 
 > Click on each function name for details and examples
 

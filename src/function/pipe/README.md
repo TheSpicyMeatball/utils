@@ -24,7 +24,7 @@ import { pipe, AnyFunction } from '@paravano/utils';
 
 
 
-```    
+```
 const addOne = x => x + 1;
 const addSeven = x => x + 7;
 const timesNegativeOne = x => x * -1;
@@ -33,4 +33,3 @@ pipe(addOne, addSeven, timesNegativeOne, Math.abs)(25);
 //=> 33
 ```
 
-    

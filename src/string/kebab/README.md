@@ -20,11 +20,10 @@ import { kebab } from '@paravano/utils';
 
 
 
-```    
+```
 kebab('Hello World')        //=> 'hello-world'
 kebab('-%^-hello-world--')  //=> 'hello-world'
 kebab('$@__HELLO+WORLD__')  //=> 'hello-world'
 kebab('2Hello 7world')      //=> 'hello-7-world'
 ```
 
-    

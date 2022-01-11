@@ -20,7 +20,7 @@ import { type } from '@paravano/utils';
 
 
 
-```    
+```
 type({})                           //=> 'object'
 type([])                           //=> 'array'
 type('Hello world')                //=> 'string'
@@ -30,4 +30,3 @@ type(() => undefined)              //=> 'function'
 type(Symbol('Hello symbol world')) //=> 'symbol'
 ```
 
-    

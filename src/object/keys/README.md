@@ -20,7 +20,7 @@ import { keys } from '@paravano/utils';
 
 
 
-```    
+```
 keys({ x: 'x' }) //=> ['x']
 keys({})         //=> []
 keys(null)       //=> []
@@ -29,4 +29,3 @@ keys('')         //=> []
 keys([])         //=> ['length']
 ```
 
-    

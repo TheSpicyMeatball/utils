@@ -20,7 +20,7 @@ import { limitItem } from '@paravano/utils';
 
 
 
-```    
+```
 limitItem([0, 1, 2], 10, 2)     //=> [0, 1, 2, 2]
 limitItem([0, 1, 2], 1, 2)     //=> [0, 1, 2]
 
@@ -32,4 +32,3 @@ limitItem(array, 1, { id: 1, name: 'user' }, equalityComparer)
 // => [{ id: 1, name: 'user' }, { id: 2, name: 'user' }]
 ```
 
-    

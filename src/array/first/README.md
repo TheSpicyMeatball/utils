@@ -20,7 +20,7 @@ import { first } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21, 17, 42];
 
 first(array)              //=> 7
@@ -28,4 +28,3 @@ first([], 'default')      //=> 'default'
 first([null], 'default')  //=> 'default'
 ```
 
-    

@@ -24,7 +24,7 @@ import { calcPerformance, AnyFunction } from '@paravano/utils';
 
 
 
-```    
+```
 const addOne = x => x + 1;
 calcPerformance(performance)(addOne, 25);
 
@@ -32,4 +32,3 @@ calcPerformance(performance)(addOne, 25);
 calcPerformance(performance, 100)(addOne, 25);
 ```
 
-    

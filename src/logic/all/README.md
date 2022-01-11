@@ -20,9 +20,8 @@ import { all } from '@paravano/utils';
 
 
 
-```    
+```
 all(value => value > 5, 25, 7) //=> true
 all(value => value > 10, 25, 7) //=> false
 ```
 
-    

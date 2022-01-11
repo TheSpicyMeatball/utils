@@ -20,7 +20,7 @@ import { trimEnd } from '@paravano/utils';
 
 
 
-```    
+```
 trimEnd('   The quick brown fox   ');
 // => '   The quick brown fox'
 
@@ -31,4 +31,3 @@ trimEnd('  fox The quick brown   fox', ['fox', 'brown', ' ']);
 // => '  fox The quick'
 ```
 
-    

@@ -20,10 +20,9 @@ import { replaceAt } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21];
 
 replaceAt(array, 1, 97)  //=> [7, 97, 21]
 ```
 
-    

@@ -20,11 +20,10 @@ import { camel } from '@paravano/utils';
 
 
 
-```    
+```
 camel('Hello World')        //=> 'helloWorld'
 camel('-%^-hello-world--')  //=> 'helloWorld'
 camel('$@__HELLO+WORLD__')  //=> 'helloWorld'
 camel('2Hello 7world')      //=> 'hello7World'
 ```
 
-    

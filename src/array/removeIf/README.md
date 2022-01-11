@@ -20,7 +20,7 @@ import { removeIf } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21];
 
 removeIf(array, item => item > 20)  
@@ -30,4 +30,3 @@ removeIf(array, item => item > 20, false)
 //=> [7, 21]
 ```
 
-    

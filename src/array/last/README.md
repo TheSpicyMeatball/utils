@@ -20,7 +20,7 @@ import { last } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21, 17, 42];
 
 last(array)              //=> 42
@@ -28,4 +28,3 @@ last([], 'default')      //=> 'default'
 last([null], 'default')  //=> 'default'
 ```
 
-    

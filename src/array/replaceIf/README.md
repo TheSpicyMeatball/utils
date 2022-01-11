@@ -20,7 +20,7 @@ import { replaceIf } from '@paravano/utils';
 
 
 
-```    
+```
 const array = [7, 25, 21];
 
 replaceIf(array, item => item > 20, 97)  
@@ -30,4 +30,3 @@ replaceIf(array, item => item > 20, 97, false)
 //=> [7, 97, 21]
 ```
 
-    
