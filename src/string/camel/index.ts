@@ -28,7 +28,11 @@ import { remove } from '../remove';
   // If it's already perfectly camel-cased, return
   if (!/[^a-zA-Z0-9]/g.test(match)) return match.charAt(0).toLowerCase() + match.slice(1);
   
-  let output = match.replace(/[^a-zA-Z0-9]/g, ' ').toLowerCase();
+  let output = match
+                 .replace(/[^a-zA-Z0-9]/g, ' ')
+                 .replace(/([a-z]{1})([A-Z])/g, '$1 $2')
+                 .toLowerCase()
+                 .replace(/([a-z]{1}) ([a-z])/g, (_, p1, p2) => p1 + p2.toUpperCase());
   
   const needsUpper = Array.from(output.matchAll(/( )([a-z])|([0-9][a-z])/g));
   

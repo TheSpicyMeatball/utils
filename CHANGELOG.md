@@ -1,3 +1,6 @@
+## [1.16.1] - 2022-04-28
+- fixed edge case in {camel} where the string is already partially camel cased
+
 ## [1.16.0] - 2022-01-11
 - added optional {reducer} to {toggle}
 - made {whenFalse} optional in {iif}

@@ -10,6 +10,8 @@ describe('camel', () => {
     expect(camel('-%^-hello-world--')).toBe('helloWorld');
     expect(camel('$@__HELLO+WORLD__')).toBe('helloWorld');
     expect(camel('2Hello 7world')).toBe('hello7World');
+    expect(camel('test-camelCase')).toBe('testCamelCase');
+    expect(camel('test-camelCaseCamelCase')).toBe('testCamelCaseCamelCase');
   });
   
   test('empty', () => {
